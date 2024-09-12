@@ -6,7 +6,7 @@
  
 body
 {
-  background-color: #17181C;
+  background-color: #212121;
 }
 h2
 {
@@ -111,4 +111,123 @@ h2
   object-fit: cover;
   width: 100px;
   height: 75px;
+}
+
+
+
+/** Segundo Card **/
+
+.container4
+{
+  display: flex;
+  height: 300px;
+ justify-content: center;
+ justify-content: space-between;
+
+}
+
+.card {
+  margin: 0 auto;
+  width: 190px;
+  height: 254px;
+  background:rgb(38,38,38) ;
+  box-shadow: 7px 5px 10px rgb(0,0,0,0.333);
+}
+
+.image {
+  height:70px;
+  background-color: #ff5858;
+}
+
+.image .Usericon
+{
+  background-color: #414141;
+  transform: translateX(10px) translateY(10px);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.image .Usericon img
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  object-fit:contain;
+}
+
+
+.image .UserName
+{
+font-family: Arial, Helvetica, sans-serif;
+width: 60px;
+height: 15px;
+border-width: 10px;
+border-radius: 5px;
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+transform: translateX(70px) translateY(-35px);
+}
+
+.image .Id
+{
+ font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  height: 15px;
+  border-width: 10px;
+  border-radius: 5px;
+  color: #262626;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateX(70px) translateY(-25px);
+}
+
+
+.description
+{
+  border-color: #141414;
+  background-color: #414141;
+  transform: translate(5px,6px);
+  width: 180px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.description img
+{
+  width: 180px;
+  height: 130px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* REDES SOCIAIS */
+
+.social-media::before
+{
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  transform: translateY(10px);
+  background: #414141;
+}
+
+.social-media a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg 
+{
+  color: #ff5858;
+  transform: translateX(25px) translateY(20px);
+  width: 20px;
+  fill: currentColor;
 }
